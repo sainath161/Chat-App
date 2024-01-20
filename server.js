@@ -7,7 +7,7 @@ const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
     cors: { 
-        origin: 'http://127.0.0.1:5500',
+        origin: 'https://chat-app-six-fawn.vercel.app/',
     },
 });
 
